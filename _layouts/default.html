@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+		</head>
+		<body>
+			<nav class="nav">
+	    		<ul class="nav__menu">
+	        	<li class="nav__menu-item"><a href="/">Home</a></li>
+		        <li class="nav__menu-item"><a href="/Teacing">Teaching</a></li>
+	        	<li class="nav__menu-item"><a href="/design">Design</a></li>
+    		</ul>
+			</nav>
+
+			{{ content }}
+
+			<footer>
+
+				<nav class="nav">
+					<ul class="nav__menu">
+						<li class="nav__menu-item"><a href="/">Home</a></li>
+						<li class="nav__menu-item"><a href="/Teaching">Teaching</a></li>
+		        <li class="nav__menu-item"><a href="/design">Design</a></li>
+					
+					</ul>
+				</nav>
+			</footer>
+		</body>
+	</html>
