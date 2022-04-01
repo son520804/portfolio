@@ -302,6 +302,11 @@ li {
   padding: 10px;
 }
 
+/* Responsive layout - makes Read More button */
+.more{
+	display: none;
+}
+
 .multiline {
   white-space: pre-wrap;
 }
