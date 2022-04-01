@@ -1,37 +1,63 @@
 ---
 layout: default
-title: Concept of Bilingualism
+title: How to Use Technology to Support Bilingualism
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
 
-    <style>
-
-        img {
-            display: block;
-			margin-left: auto;
-			margin-right: auto;
-			}
-
-
-    </style>
-
-    </head>
-
-
-    <body>
-        <main>
-		<h1>Bayesian Experimentation for Testing Educational Toolkits</h1>
-            <div class="about_content">
-                <img src="bayesian_bandit.jpg" class="about" alt="profile picture" style="width:62.5%"/>
-            </div>
+</head>
 
 
 
-        </main>
-    </body>
+<body>
+  <main>
+    <div class="inner">
+      <h1>My Journey of Bilingualism in Education</h1>
+
+      <div class="about_content">
+        <img src="bilingualism.jpg" class="about" alt="profile picture" style="width:60%"/>
+      </div>
+
+      <p>“Bilingualism” is often used to describe people who can use two languages fluently. My teaching experience and my own experience of being a bilingual learner make me have passion for exploring bilingual learners’ language and literacy development especially for those bilingual learners whose parents immigrated to another country.</p>
+
+      <button type="button" class="collapsible">Pros of bilingualism</button>
+      <div class="collapsible_content">
+        <p>Research indicates that people who speak two or more languages significantly outperform monolinguals in certain mental tasks, such as maintaining focus on important information.</p>
+      </div>
+      <button type="button" class="collapsible">Limitation of bilingualism</button>
+      <div class="collapsible_content">
+        <p>Teaching academic content in two languages can be very expensive, and the prices of bilingual education programs are sky-high for most students and families. This is one reason why this education program model in its more intensive forms is typically limited to private schools.</p>
+      </div>
+      <button type="button" class="collapsible">Interested research questions</button>
+      <div class="collapsible_content">
+        <ul>
+          <li>1) What factors do impact bilingual learners’ language and literacy development? I am especially interested in the impact of the home/school environment. </li>
+          <li>2) How can bilingual learners’ parents and teachers support their language and literacy development?</li>
+          <li>3) What factors do impact bilingual learners’ willingness to use their heritage language and to inherit their heritage culture?</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </main>
+</body>
 </html>
