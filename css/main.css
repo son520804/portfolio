@@ -318,7 +318,7 @@ nav {
 .nav{
 
     margin-right: 0 auto 0 auto;
-    width: 70%;
+    width: 100%;
     background: #008B8B;
     color: #f0f0f0;
 }
@@ -332,7 +332,7 @@ nav {
 
 .nav a {
   display: block;
-  padding: 0 25px;
+  padding: 0 0px;
   line-height: inherit;
   cursor: pointer;
 }
