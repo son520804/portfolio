@@ -56,7 +56,7 @@ title: Sally's Educational Portfolio
 						<span id="dots">...</span><span id="more">
 							 especially for those heritage learners. Many researchers have already pointed out that heritage learners have different learning needs with foreign language learners. The input and output of the target language and their funds of knowledge are also different. SO, how much benefits heritage learners could get from current foreign language learning tools. I am interested in exploring how to design a learning tool for supporting bilingual learners’ language and literacy development through honoring their heritage culture and maintaining their heritage language.</span>
 						 </p>
-
+						<button onclick="myFunction2()" id="myBtn">Read more</button>
 				</div>
 				<div class="right-content">
 					<a href="/how_to_use_tech_to_support_bilingual_children">
@@ -117,6 +117,22 @@ title: Sally's Educational Portfolio
 			    btnText.innerHTML = "Read less";
 			    moreText.style.display = "inline";
 			  }
+			}
+
+			function myFunction2() {
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
+
+				if (dots.style.display === "none") {
+					dots.style.display = "inline";
+					btnText.innerHTML = "Read more";
+					moreText.style.display = "none";
+				} else {
+					dots.style.display = "none";
+					btnText.innerHTML = "Read less";
+					moreText.style.display = "inline";
+				}
 			}
 		</script>
 
