@@ -303,7 +303,7 @@ li {
 }
 
 /* Responsive layout - makes Read More button */
-.more{
+#more{
 	display: none;
 }
 
@@ -439,6 +439,7 @@ p {
     padding: 1rem;
   }
 }
+
 
 
 .right-content{
